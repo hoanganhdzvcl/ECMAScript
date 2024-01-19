@@ -1,0 +1,1 @@
+//Component la tung phan trong giao dien JS
