@@ -64,17 +64,39 @@ console.log("Đơn hàng có tổng hơn 100 là: ", total100);
 console.log(`Mảng đối tượng mới với tổng bill là:`, newOrders);
 
 // tính tổng số lượng của tất cả các sản phẩm trong tất cả đơn hàng 
-//  let sumAll = newOrders.reduce((total,order)=>total + order.tongBill,0);
-//  console.log(`Tổng tất cả sản phẩm (chưa giảm giá là): ${sumAll}`);
 console.log(`Tổng số lượng sản phẩm trong tất cả đơn hàng là:${totalQuantity}`);
 
 
-
+// sử dụng reduce để tính tổng giá trị giảm giá của tất cả sản phẩm trong tất cả đơn hàng
 let totalDiscoutPrice = orders.reduce((total,order)=> {
   let orderDiscountPrice = order.items.reduce((total,item)=>total + item.price *item.discount,0);
 return total + orderDiscountPrice;
 },0);
-console.log(totalDiscoutPrice);
+console.log(`Tổng giá trị giảm giá của tất cả sản phẩm trong tất cả đơn hàng là: ${totalDiscoutPrice}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  let sumAll = newOrders.reduce((total,order)=>total + order.tongBill,0);
+//  console.log(`Tổng tất cả sản phẩm (chưa giảm giá là): ${sumAll}`);
 
 
 

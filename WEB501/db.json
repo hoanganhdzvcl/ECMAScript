@@ -1,0 +1,35 @@
+{
+    "products": [
+        {
+            "id":1,
+            "name":"Samsung Galaxy S22 5G 128GB",
+            "price": 500,
+            "image": "https://picsum.photos/150/100"
+        },
+        {
+            "id":2,
+            "name":"Asus TUF Gaming FX506HC",
+            "price": 1000,
+            "image": "https://picsum.photos/150/100"
+        },
+        {
+            "id":3,
+            "name":"iPad Gen 9",
+            "price": 300,
+            "image": "https://picsum.photos/150/100"
+        },
+        {
+            "id":4,
+            "name":"Apple Watch Ultra GPS",
+            "price": 800,
+            "image": "https://picsum.photos/150/100"
+        }
+    ],
+    "users":[
+        {
+            "id":1,
+            "username":"user1",
+            "password":"123456"
+        }
+    ]
+}

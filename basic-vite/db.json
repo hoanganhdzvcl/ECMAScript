@@ -1,0 +1,23 @@
+{
+    "posts": [
+      { "id": "1", "title": "a title" },
+      { "id": "2", "title": "another title" }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "products":[
+      {"id":1,"tensp":"Iphone 14 ProMax","gia":15000,"trangthai":"Con hang"},
+      {"id":2,"tensp":"Iphone 14 Pro","gia":12000,"trangthai":"Con hang"},
+      {"id":3,"tensp":"Iphone 15 ProMax","gia":19000,"trangthai":"Het hang"},
+      {"id":4,"tensp":"Iphone 15 Pro","gia":17000,"trangthai":"Con hang"}
+    ],
+    "news":[
+      {"id":1,"title":"Không thể tin nổi","noidung":"Không có gì đâu"},
+      {"id":2,"title":"Tin tức 2 ","noidung":"Đây là tin tức 2"}
+    ]
+  }

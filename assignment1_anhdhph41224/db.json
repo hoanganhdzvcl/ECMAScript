@@ -1,0 +1,13 @@
+{
+    "danhmucve": [
+      { "id": "1", "danhmuc": "Vé một chiều" },
+      { "id": "2", "danhmuc": "Vé khứ hồi" }
+    ],
+    "ve": [
+      { "id": "1", "text": "Hà Nội (HAN) - Tp. Hồ Chí Minh (SGN)", "hangve": "Thương gia" },
+      { "id": "2", "text": "Hà Nội (HAN) - Đà Nẵng (DAD)", "hangve": "Phổ thông" },
+      { "id": "3", "text": "Hà Nội (HAN) - Nha Trang (CXR)", "hangve": "Phổ thông" },
+      { "id": "4", "text": "Hà Nội (HAN) - Đà Lạt(DLI)", "hangve": "Thương gia" },
+      { "id": "5", "text": "Hà Nội (HAN) - Cà Mau(CAH)", "hangve": "Phổ thông" }
+    ]
+  }

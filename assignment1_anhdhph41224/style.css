@@ -1,0 +1,72 @@
+*{
+  margin: 0 auto;
+}
+.contactPage{
+border: 1px solid black;
+text-align: justify;
+width: 500px;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+p{
+  margin-left: 10px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f27125;
+}
+h2{
+  color:black;
+  text-align: center;
+  padding: 10px 10px;
+}
+h3{
+  margin-left: 10px;
+  color: blue;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+width: 50%;
+padding: 8px;
+margin: 5px 0;
+box-sizing: border-box;
+}
+input[type="radio"] {
+margin-right: 5px;
+}
+
+input[type="submit"],
+button {
+padding: 10px;
+background-color: #4caf50;
+color: white;
+cursor: pointer;
+border-radius: 5px;
+}
+input[type="submit"]:hover,
+button:hover {
+background-color: #45a049;
+}
